@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    text-transform:capitalize;
+    transition: all .2s linear;
+  }
+  html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+  html::-webkit-scrollbar{
+    width: .8rem;
+  }
+  html::-webkit-scrollbar-track{
+    background: rgb(235, 202, 245);
+  }
+  html::-webkit-scrollbar-thumb{
+    background: #420177;
+  }
+  .pythcer img{
+    width: 1370px;
+    height: 600px;
+}
+.pythcer i{
+    float: right;
+    font-size:15px;
+    font-weight: 900;
+    margin-right: 20px;
+    color: rgb(252, 249, 249);
+    background-color: red;
+    margin-top: 5px;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.pythcer i:hover{
+    opacity: 50%;
+}

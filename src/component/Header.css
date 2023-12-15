@@ -1,0 +1,97 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none; border: none;
+  text-transform:capitalize;
+  transition: all .2s linear;
+}
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+html::-webkit-scrollbar{
+  width: .8rem;
+}
+html::-webkit-scrollbar-track{
+  background: rgb(235, 202, 245);
+}
+html::-webkit-scrollbar-thumb{
+  background: #420177;
+}
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.7rem 10%;
+  height: 6.5rem;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
+}
+  .logo {
+    display: grid;
+    /* background-color: #3b5998; */
+    grid-column: 1/3;
+    justify-content: start;
+    align-items: center;
+  }
+  .logo h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: #420177;
+
+  }
+  .Navbar ul {
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+    
+  }
+  .Navbar li{
+    list-style: none;
+    
+  }
+  .Link{
+    text-decoration: none;
+    color: #0e2431;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin: 15px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .Link:hover{
+    border-bottom: 0.2rem solid #011aff;
+  padding: 0.5rem 0;
+  color: #011aff;
+  }
+  .social_link{
+   height: 10%;
+   width: 10%;
+   margin-right: 5%;
+   margin-bottom: 2%;
+   
+   
+    
+    }
+  .social_link img{
+    width: 30%;
+    float: right;
+    margin-inline-start: 20px;
+    
+  
+  }
